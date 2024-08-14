@@ -1,6 +1,17 @@
-import tkinter as tk
-from spinningwheel import SpinningWheelApp
 
-root = tk.Tk()
-app = SpinningWheelApp(root)
-root.mainloop()
+
+# Python program to
+# print current date
+ 
+from datetime import datetime
+from datetime import date
+ 
+# calling the today
+# function of date class
+today = datetime.now()
+ 
+print(today)
+
+time = date.today()
+
+print(time)
